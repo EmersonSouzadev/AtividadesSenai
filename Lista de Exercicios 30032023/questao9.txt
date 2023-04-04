@@ -1,9 +1,0 @@
-valor total do emprestimo = 10x o valor da renda mensal
-valor da prestação max = 30% do valor da renda mensal
-
-
-valordarenda
-valor do emprestimo solicitado
-numero de prestacoes
-informar se pode ou não ser concedido
-
