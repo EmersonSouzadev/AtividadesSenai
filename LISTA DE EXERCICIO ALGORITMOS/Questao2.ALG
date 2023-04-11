@@ -1,25 +1,24 @@
-Algoritmo "Questão2"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "QuestÃ£o2"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Faça um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja “F” e  estado civil seja “CASADA”, solicitar o tempo de casada (anos).
+// DescriÃ§Ã£o   : FaÃ§a um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja â€œFâ€ e  estado civil seja â€œCASADAâ€, solicitar o tempo de casada (anos).
 // Autor(a)    : Emerson Souza
 // Data atual  : 30/03/2023
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nome, sexo, estadoCivil : caracter
 tempoCasada:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+//Solicitando Dados do usuario
 escreval("Digite os Seguintes dados :")
 
 escreval("Nome :")
 leia(nome)
-
+//se sexo igual a F e estado civil igual a casada entao.
 escreval("Sexo (M ou F): ")
 leia(sexo)
-
 se(sexo ="F") entao
    escreval("Estado Civil:")
    leia(estadoCivil)
