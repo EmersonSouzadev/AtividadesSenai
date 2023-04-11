@@ -1,24 +1,27 @@
-Algoritmo "Quest„o3"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "Quest√£o3"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : 3. FaÁa um algoritmo que leia dois valores inteiros A e B se os valores forem iguais dever· se  somar os dois, caso contr·rio multiplique A por B. Ao final de qualquer um dos c·lculos deve-se  atribuir o resultado para uma vari·vel C e mostrar seu conte˙do na tela.
+// Descri√ß√£o   : 3. Fa√ßa um algoritmo que leia dois valores inteiros A e B se os valores forem iguais dever√° se  somar os dois, caso contr√°rio multiplique A por B. Ao final de qualquer um dos c√°lculos deve-se  atribuir o resultado para uma vari√°vel C e mostrar seu conte√∫do na tela.
 // Autor(a)    : Emerson SOuza
 // Data atual  : 30/03/2023
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
-valor1, valor2 : inteiro
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
+valor1, valor2, valor3 : inteiro
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 escreval("Insira um Numero")
 leia(valor1)
-escreval("Insira outro N˙mero")
+escreval("Insira outro N√∫mero")
 leia(valor2)
-
-se(valor1=valor2) entao
-  escreval("A Soma dos dois Numeros È : ", (valor1 + valor2))
+// condicional se os valores forem iguais recebe soma, se forem diferentes os valores sao multiplicados.
+se
+(valor2 = valor3)
+valor3 <- valor1 + valor2
+   escreval("A Soma dos dois Numeros √© : ", valor3)
 senao
-  escreval("o Produto dos dois N˙meros È : ",(valor1 * valor2))
+ valor3 <- valor1 * valor3
+  escreval("o Produto dos dois N√∫meros √© : ", valor3)
   fimse
 
 Fimalgoritmo
