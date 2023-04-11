@@ -1,12 +1,13 @@
-Algoritmo "QuestÃ£o2"
-// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÃ§Ã£o   : FaÃ§a um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja â€œFâ€ e  estado civil seja â€œCASADAâ€, solicitar o tempo de casada (anos).
+
+Algoritmo "Questão2"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Faça um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja “F” e  estado civil seja “CASADA”, solicitar o tempo de casada (anos).
 // Autor(a)    : Emerson Souza
 // Data atual  : 30/03/2023
 
 Var
-// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
+// Seção de Declarações das variáveis
 nome, sexo, estadoCivil : caracter
 tempoCasada:inteiro
 
@@ -16,19 +17,30 @@ escreval("Digite os Seguintes dados :")
 
 escreval("Nome :")
 leia(nome)
-//se sexo igual a F e estado civil igual a casada entao.
+
 escreval("Sexo (M ou F): ")
 leia(sexo)
-se(sexo ="F") entao
-   escreval("Estado Civil:")
-   leia(estadoCivil)
-senao
-fimse
 
-se(estadoCivil = "Casada") entao
-  escreval("Casada a quantos anos ?")
+escreval ("Estado Civil :")
+leia(estadoCivil)
+
+//se sexo igual a F e estado civil igual a casada entao.
+se(sexo ="F") e (estadoCivil = "Casada") entao
+  escreval("Tempo de Casada: ")
   leia(tempoCasada)
 fimse
 
-Fimalgoritmo
+limpatela
+escreval("Nome :" , nome)
+escreval("Sexo: " , sexo)
+escreval("Estado Civil: ", estadoCivil)
+
+se(tempoCasada > 0) entao
+ escreval("Tempo de casada :", tempoCasada)
+senao
+fimse
+fimalgoritmo
+
+
+
 
