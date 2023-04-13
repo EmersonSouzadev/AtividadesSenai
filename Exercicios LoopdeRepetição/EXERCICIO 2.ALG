@@ -15,10 +15,11 @@ Inicio
       escreva("Digite um numero: ")
       leia(numero)
 
-      se(numero mod 2) = 0 entao
+      se(numero mod2) = 0 entao
          contPar <- contPar + 1
       senao
-         contImpar<- contImpar + 1
+            contImpar<- contImpar + 1
+         fimse
       fimse
    fimpara
 
